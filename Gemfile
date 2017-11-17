@@ -17,6 +17,7 @@ gem 'bootstrap-will_paginate', '0.0.10'
 gem 'bcrypt', '3.1.7'
 gem 'fog', '1.25.0'
 gem 'net-ssh'
+gem 'aws-sdk'
 
 gem 'spring', group: :development
 
