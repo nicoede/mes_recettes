@@ -17,6 +17,7 @@ Rails.application.routes.draw do
   get '/login', to: "logins#new"
   post '/login', to: "logins#create"
   get '/logout', to: "logins#destroy"
+  get '/about', to: "about#show"
   
   resources :styles, only: [:new, :create, :show]
   resources :ingredients, only: [:new, :create, :show]
